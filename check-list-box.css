@@ -1,0 +1,22 @@
+﻿/* CSS REQUIRED */
+.state-icon {
+    right: -5px;
+    float: right;
+}
+.list-group-item-primary {
+    color: rgb(255, 255, 255);
+    background-color: rgb(66, 139, 202);
+}
+
+/* DEMO ONLY - REMOVES UNWANTED MARGIN */
+/*.well .list-group {
+    margin-bottom: 0px;
+}*/
+
+.checked-list-box li {
+    border :0px solid #ddd;
+}
+
+.checked-list-box li .colorbox {
+     width: 7px; height: 13px;float: right;margin-left: 7px
+}
