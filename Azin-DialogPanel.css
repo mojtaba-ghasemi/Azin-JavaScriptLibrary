@@ -1,0 +1,51 @@
+﻿.azinDialogBackGround {
+    display:    none;
+    position:   absolute;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 )                 
+                50% 50% 
+                no-repeat;
+            
+}
+
+.dialogLoading {
+    overflow: hidden;   
+}
+.dialogLoading .azinDialogBackGround {
+    display: block;
+}
+.azinDialogBox {
+    display: none;
+    position: absolute;
+    left: calc(50% - 200px);
+    top: calc(50% - 200px);
+   border: 1px solid gray;
+    /*direction: rtl*/
+}
+ 
+.azinDialogBox .close {
+    float: right;
+    cursor: pointer;
+    width: 35px;
+}
+
+.azinDialogBox .azinDialogContent {
+   
+    width: 100%;
+    height: calc(100% - 35px);
+    /*float: right;*/
+}
+
+.azinDialogBox .azinDialogHeader {
+    float: right;
+    width: 100%;
+    height: 35px;
+    border: 1px solid red;
+    font-weight: 600;
+    font-size: 1.5em;
+    background: rgba( 255, 255, 255, 255 )  
+}
