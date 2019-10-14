@@ -1,0 +1,167 @@
+﻿ 
+.searchContainer {
+    direction: rtl;
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    box-shadow: -1px 4px 10px 0 rgba(0, 0, 0, 0.2);
+    display: none;
+    height: 500px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 60px;
+    width: 320px;
+    z-index: 8888;
+}
+ 
+ .azin_autocomplateSearchBar {
+      width: 300px;
+     /*background-color: green;*/
+ 
+} 
+ 
+ .azin_autocomplateSearchBar img {
+     padding-right: 10px
+ }
+
+.azin_autocomplateSearchBar .SearchTextbox {
+    /*display: block; 
+    width: 100%;*/
+}
+ 
+input[type=text]{
+    -moz-appearance: textfield;
+    -moz-binding: url("chrome://global/content/platformHTMLBindings.xml#inputFields");
+    -moz-user-select: text;
+    cursor: text;
+    font: ;
+    letter-spacing: normal;
+    text-align: start;
+    text-indent: 0;
+    text-rendering: optimizelegibility;
+    text-shadow: none;
+    text-transform: none;
+    word-spacing: normal;
+}
+
+
+
+#ProductSearch {
+    background: #fff none repeat scroll 0 0;
+    border-top: 1px solid #ccc;
+    float: right;
+    min-height: 150px;
+    width: 50%;
+}
+
+.ProductSearchHeader {
+    border-bottom: 1px solid #ccc;
+    color: #333;
+    font-family: "iransans";
+    font-size: 15px;
+    margin: 10px;
+    padding-bottom: 3px;
+}
+ 
+
+
+#ProductSearch ul {
+    /*height: 400px;*/
+    overflow: hidden !important;
+}
+ 
+ 
+ 
+#ProductSearch ul li .des p {
+    line-height: 22px;
+    margin: 0 3px 0 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+ 
+
+#ProductSearch ul li.sep {
+    background: rgba(0, 0, 0, 0) url("/Images/sep.png") no-repeat scroll center center;    
+    box-sizing: border-box;
+    max-width: 100%;
+    padding: 10px 0 5px;
+}
+ 
+
+ 
+.aizn_autocomplate_ul .aizn_autocomplate_ul_li .des {
+    direction: rtl;
+    float: left;
+    width: 240px;
+}
+
+.aizn_autocomplate_ul .aizn_autocomplate_ul_li .des p {
+     text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-right: 3px;
+}
+
+
+
+.aizn_autocomplate_ul .aizn_autocomplate_ul_li .img {
+    margin-left: 195px;
+    text-align: center;
+    width: 65px;
+}
+.aizn_autocomplate_ul .aizn_autocomplate_ul_li .img img{
+    max-width: 55px;
+    max-height: 45px;
+    box-sizing: border-box;
+}
+
+ 
+img {
+    vertical-align: middle;
+    border: 0 none;
+}
+ 
+ 
+ .aizn_autocomplate_ul .aizn_autocomplate_ul_li {
+    display: block;
+    overflow: hidden;
+    text-align: right;
+    position: relative;
+    width: 310px
+}
+ 
+
+ ul, ol, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-width: 0;
+    
+}
+
+ .aizn_autocomplate_ul .aizn_autocomplate_ul_li a {
+     width: 280px;
+    color: #666;
+    font-weight: normal;
+    display: block;
+    width: 100%;
+    max-height: 45px;
+
+}
+a {
+    font-family: iransans,tahoma;
+    font-size: 11px;
+}
+
+.aizn_autocomplate_ul_li_notfound
+{
+    width: 70%;
+    border: 1px dotted #ccc;
+    padding: 2px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    direction: rtl;
+    text-align: center;
+}
+ 
